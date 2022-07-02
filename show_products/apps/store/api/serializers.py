@@ -2,7 +2,7 @@ from django.db.models import Count
 from rest_framework import serializers
 from apps.store.models import Product
 
-class (serializers.ModelSerializer):
+class ProductSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Product
